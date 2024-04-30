@@ -143,7 +143,7 @@ section{
 
 .btn:hover{
     color: var(--white);
-    background-color: var(--purple);
+    background-color: var(--grey);
     cursor: pointer;
 }
 
@@ -189,7 +189,7 @@ header .logo h2{
 }
 
 header .navbar a{
-    color: var(--white);
+    color: var(--grey);
     font-size: 1.8rem;
     margin-left: 1rem;
 }
@@ -614,7 +614,7 @@ header #menu-btn:hover{
 }
 
 .service-item:hover{
-    background-color: var(--purple);
+    background-color: var(--grey);
 }
 
 .service-item i{
@@ -969,6 +969,16 @@ header #menu-btn:hover{
 
 
 /*--------------------- 11- Contact Area CSS (Start) ---------------------*/
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .principal {
+    font-size: 2.5em;
+}
+
 .contact .alert{
     font-size: 2rem;
     color: var(--purple);
